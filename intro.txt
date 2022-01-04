@@ -1,0 +1,32 @@
+What is declarative programming?
+There is no one specific definition of the paradigm, but all definitions agree on one thing: 
+A characteristic feature of declarative programming languages is that they always describe the desired end result 
+rather than outlining all the intermediate work steps. In declarative programming, the solution path to reach 
+the goal is determined automatically. This works well, provided the specifications of the final state are clearly 
+defined and an appropriate implementation procedure exists. If both of these conditions are met, declarative programming is very efficient.
+Since declarative programming does not specifically describe the “how” but works at a very high level of abstraction,
+ the programming paradigm also leaves room for optimization. If a better implementation procedure is developed, 
+the integrated algorithm can identify and use it. This makes the paradigm futureproof. The procedure for how 
+the result is to be achieved does not have to be set in stone when writing the code.
+The best-known declarative programming languages are:
+
+Prolog
+Lisp
+Haskell
+Miranda
+Erlang
+SQL (in the broadest sense)
+LINQ in C#
+
+- Advantages and disadvantages of declarative programming languages
+
+Advantages :-
+1- Short, efficient code
+2- Can be implemented using methods not yet known at the time of programming	
+3-Easy optimization as implementation is controlled by an algorithm	
+4-Maintenance possible independent of application development	
+
+Disadvantages :-
+1-Sometimes hard to understand for external people
+2-Based on an unfamiliar conceptual model for people (solution state)
+3-Hard to take characteristics of individual applications into account during programming
